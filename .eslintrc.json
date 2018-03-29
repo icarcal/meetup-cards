@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "react",
+    "flowtype"
+  ],
+  "rules": {
+    "linebreak-style": 0
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

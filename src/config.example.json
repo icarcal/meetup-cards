@@ -1,0 +1,18 @@
+{
+  "event": {
+    "name": "Meetup Card Title example",
+    "backgroundImage": ""
+  },
+  "speakers": [
+    {
+      "name": "Speaker 1",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices massa ut libero egestas, ac ultricies velit aliquam. Pellentesque erat orci, commodo eget cursus vitae, dignissim et leo. Vivamus vitae varius elit. Vestibulum felis magna, posuere nec enim nec, ornare tristique leo. Nulla facilisi. Integer accumsan maximus quam non eleifend. Cras fringilla ac nisl ut semper. Suspendisse ut porttitor purus, ut tempor ex. Sed in enim nisl. Vivamus consectetur enim erat, ac mollis erat consectetur sit amet. Donec id sodales sapien.",
+      "picture": "",
+      "talk": {
+        "title": "Talk 1 from speker 1",
+        "datetime": "29/03/2018 16:40",
+        "description": "Talk 1 description"
+      }
+    }
+  ]
+}
