@@ -5,10 +5,58 @@
 }
 
 .card {
-  width: 820px;
+  width: 800px;
   height: 312px;
   border: 1px solid;
   margin: 0 auto 30px auto;
+  display: flex;
   @include boxShadow();
+
+  .card-image {
+    width: 392px;
+    display: flex;
+
+    img {
+      margin-left: 47px;
+      margin-top: 70px;
+      width: auto;
+      height: 173px;
+      border-radius: 150px
+    }
+  }
+
+  .card-content {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #FFF;
+
+    h1 {
+      font-size: 27px;
+      margin: 0;
+      font-weight: normal;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+  }
+//   <div className="card">
+//   <div className="card-image">
+//     <img src={speaker.picture} alt={speaker.name} />
+//   </div>
+//   <div className="card-content">
+//     <h2>{event.name}</h2>
+//     <h1>{speaker.name}</h1>
+//     <h3>{speaker.talk.title}</h3>
+//     <p>{speaker.talk.description}</p>
+//   </div>
+// </div>
 }
 

@@ -6,6 +6,12 @@ body {
 
 .app {
   text-align: center;
+  background-color: #222;
+  padding-bottom: 30px;
+
+  a {
+    color: red
+  }
 }
 
 .app-logo {

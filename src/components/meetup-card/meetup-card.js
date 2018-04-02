@@ -22,8 +22,12 @@ type Props = {
 function MeetupCard(props: Props) {
   const { event, speaker } = props;
 
+  const backgroundStyle = {
+    backgroundImage: `url(${event.backgroundImage})`,
+  };
+
   return (
-    <div className="card">
+    <div className="card" style={backgroundStyle}>
       <div className="card-image">
         <img src={speaker.picture} alt={speaker.name} />
       </div>
